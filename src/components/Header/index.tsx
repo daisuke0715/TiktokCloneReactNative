@@ -1,7 +1,7 @@
 import React from 'react';
 import { Text } from 'react-native';
 
-const Header = () => {
+const Header: React.FC = () => {
   return <Text>Header</Text>
 };
 
