@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+  },
+  "cSpell.language": "en",
+  "cSpell.ignoreRegExpList": ["[０-９Ａ-Ｚａ-ｚぁ-んァ-ヶ亜-熙纊-黑]+"],
+}
