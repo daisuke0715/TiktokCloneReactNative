@@ -10,7 +10,7 @@ const Container = styled.View`
   background: orange;
 `;
 
-const HomeScreen: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <>
       <StatusBar
@@ -27,4 +27,4 @@ const HomeScreen: React.FC = () => {
   );
 };
 
-export default HomeScreen;
+export default Home;
