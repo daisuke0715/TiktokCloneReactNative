@@ -6,7 +6,6 @@ const App = () => {
 
   return (
     <SafeAreaView>
-      <StatusBar />
       <HomeScreen />
     </SafeAreaView>
   );
