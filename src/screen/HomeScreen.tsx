@@ -10,14 +10,16 @@ const Container = styled.View`
 
 const HomeScreen = () => {
   return (
-    <Container>
+    <>
       <StatusBar
         translucent
         backgroundColor='transparent'
         barStyle='light-content'
       />
-      <Header />
-    </Container>
+      <Container>
+        <Header />
+      </Container>
+    </>
   );
 };
 
