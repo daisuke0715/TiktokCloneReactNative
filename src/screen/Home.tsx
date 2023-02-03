@@ -5,9 +5,11 @@ import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Tabs from '../components/Tabs';
 
+import api from '../services/api';
+
 const Container = styled.View`
   flex: 1;
-  background: orange;
+  background: transparent;
 `;
 
 const Home: React.FC = () => {
@@ -20,7 +22,7 @@ const Home: React.FC = () => {
       />
       <Container>
         <Header />
-        <Hero />
+        <Hero videos={api} />
         <Tabs />
       </Container>
     </>
